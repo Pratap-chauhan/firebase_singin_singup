@@ -1,0 +1,29 @@
+.side-font
+{
+    font-size: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+.side-font:hover
+{
+color:#95a5a6;
+font-size: 15px;
+
+}
+.profile_pic
+{
+    border-radius: 44%;
+    height: 100px;
+    margin-left: 50%;
+    margin-top: 80px;
+}
+.profile_name
+{
+    padding-bottom:70px;
+    padding-top:10px;
+    color:white;
+    margin-left: 27%;
+}

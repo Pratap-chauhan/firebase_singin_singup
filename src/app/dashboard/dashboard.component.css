@@ -1,0 +1,17 @@
+.dasboard_box
+{
+    border: 1px solid black;
+    background-color: #3d265d;
+    color: #fff;
+    margin-top: 50px;
+    border-radius: 5px;
+    padding-top: 18px;
+    padding-bottom: 18px
+
+    
+}
+.dasboard_box_number
+{
+  
+    padding-bottom: 25px;
+}
