@@ -28,15 +28,17 @@ login_submit(login:NgForm)
   const email =login.form.value.user_name;
   const password = login.form.value.password;
   console.log(email,password);
- this.router.navigateByUrl('/dashboard');
+ 
     firebase.auth().signInWithEmailAndPassword(email , password).then(
     Response=>{console.log(Response);
+               this.router.navigateByUrl('/dashboard');
       }  )
 .catch(reason =>
   {
     this.toastr.error('everything is broken','wsygrthrhy');
   })  
- firebase.auth().createUserWithEmailAndPassword(email ,this.password).catch( Error => console.log(Error) )
+  
+ //firebase.auth().createUserWithEmailAndPassword(email ,this.password).catch( Error => console.log(Error) )
 }
 signUp(){
   this.router.navigateByUrl('');
